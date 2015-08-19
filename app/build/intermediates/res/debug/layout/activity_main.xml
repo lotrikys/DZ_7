@@ -1,0 +1,149 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/rl2"
+        android:layout_weight="2">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/logo"
+            android:src="@drawable/pic_logo_vhod"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerCrop"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mail"
+            android:background="@drawable/mail"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Регистрация через E-mail"
+            android:id="@+id/reg"
+            android:textSize="19sp"
+            android:layout_alignBottom="@+id/mail"
+            android:layout_toRightOf="@+id/mail"
+            android:layout_toEndOf="@+id/mail"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:id="@+id/email"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/mail"
+            android:layout_alignLeft="@+id/mail"
+            android:layout_alignStart="@+id/mail" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editEmail"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/email"
+            android:layout_alignLeft="@+id/email"
+            android:layout_alignStart="@+id/email" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите пароль"
+            android:id="@+id/passwd"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/editEmail"
+            android:layout_alignLeft="@+id/editEmail"
+            android:layout_alignStart="@+id/editEmail" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editPasswd"
+            android:layout_below="@+id/passwd"
+            android:layout_alignLeft="@+id/passwd"
+            android:layout_alignStart="@+id/passwd"
+            android:layout_alignRight="@+id/editEmail"
+            android:layout_alignEnd="@+id/editEmail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Введите пароль еще раз"
+            android:id="@+id/passwd2"
+            android:layout_marginTop="15dp"
+            android:layout_below="@+id/editPasswd"
+            android:layout_alignLeft="@+id/editPasswd"
+            android:layout_alignStart="@+id/editPasswd" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editPasswd2"
+            android:layout_below="@+id/passwd2"
+            android:layout_alignLeft="@+id/passwd2"
+            android:layout_alignStart="@+id/passwd2"
+            android:layout_alignRight="@+id/editPasswd"
+            android:layout_alignEnd="@+id/editPasswd"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/error"
+            android:textSize="11dp"
+            android:layout_below="@+id/editPasswd2"
+            android:layout_alignLeft="@+id/editPasswd2"
+            android:layout_alignStart="@+id/editPasswd2"
+            android:textColor="#ffff0003" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="сохранить"
+            android:id="@+id/save"
+            android:textSize="19sp"
+            android:textColor="#ff2dff00"
+            android:layout_below="@+id/error"
+            android:layout_alignRight="@+id/editPasswd2"
+            android:layout_alignEnd="@+id/editPasswd2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="сбросить"
+            android:id="@+id/reset"
+            android:textSize="19sp"
+            android:layout_marginRight="15dp"
+            android:layout_alignTop="@+id/save"
+            android:layout_toLeftOf="@+id/save"
+            android:layout_toStartOf="@+id/save" />
+    </RelativeLayout>
+
+</LinearLayout>
+<!-- From: file:/home/lotrik/Projects/DZ_7/app/src/main/res/layout/activity_main.xml -->

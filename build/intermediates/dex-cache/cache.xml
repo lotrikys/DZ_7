@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/lotrik/Projects/DZ_7/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/lotrik/Projects/DZ_7/app/build/intermediates/pre-dexed/debug/classes-61e001af33bc9fdd93e7c65468113239f6b0e146.jar" />
+    </item>
+    <item
+        jar="/opt/android-sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/lotrik/Projects/DZ_7/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-8a6fb6497f38678b44fa8d3ad996aafd0332c129.jar" />
+    </item>
+    <item
+        jar="/home/lotrik/Projects/DZ_7/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/lotrik/Projects/DZ_7/app/build/intermediates/pre-dexed/debug/classes-0e208acd864d17dcf8ddef78524fdae05ef0e9bc.jar" />
+    </item>
+    <item
+        jar="/home/lotrik/Projects/DZ_7/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/lotrik/Projects/DZ_7/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-168e844c6a9a79b287ecabbfed8c40ff878c0309.jar" />
+    </item>
+
+</items>
